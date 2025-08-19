@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{06F5A989-7555-4D24-98FC-616F764CC4A4}|WorkerService\\WorkerService.csproj|c:\\users\\matheus.henrique\\source\\repos\\studyapi\\workerservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F5A989-7555-4D24-98FC-616F764CC4A4}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{06F5A989-7555-4D24-98FC-616F764CC4A4}|WorkerService\\WorkerService.csproj|c:\\users\\matheus.henrique\\source\\repos\\studyapi\\workerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06F5A989-7555-4D24-98FC-616F764CC4A4}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,19 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\WorkerService\\Worker.cs",
+              "RelativeDocumentMoniker": "WorkerService\\Worker.cs",
+              "ToolTip": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\WorkerService\\Worker.cs",
+              "RelativeToolTip": "WorkerService\\Worker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T16:23:34.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\WorkerService\\Program.cs",
               "RelativeDocumentMoniker": "WorkerService\\Program.cs",
               "ToolTip": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\WorkerService\\Program.cs",
               "RelativeToolTip": "WorkerService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T15:15:02.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RefitPostService.cs",
               "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Application\\Services\\Refit\\RefitPostService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\Refit\\RefitPostService.cs",
@@ -55,12 +72,11 @@
               "RelativeToolTip": "Application\\Services\\Refit\\RefitPostService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T15:13:29.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T15:13:29.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Script.cs",
               "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Infrastructure\\Script.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Script.cs",
@@ -68,8 +84,7 @@
               "RelativeToolTip": "Infrastructure\\Script.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T15:13:03.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T15:13:03.36Z"
             }
           ]
         }
