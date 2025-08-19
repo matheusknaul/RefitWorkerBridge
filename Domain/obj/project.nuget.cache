@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RA3HIys91Rs=",
+  "dgSpecHash": "Hyo9XyW4cwI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\matheus knaul\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.19\\microsoft.windowsdesktop.app.ref.8.0.19.nupkg.sha512",
-    "C:\\Users\\matheus knaul\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.19\\microsoft.netcore.app.ref.8.0.19.nupkg.sha512",
-    "C:\\Users\\matheus knaul\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.19\\microsoft.aspnetcore.app.ref.8.0.19.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

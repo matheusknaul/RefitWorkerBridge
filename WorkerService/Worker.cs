@@ -1,11 +1,11 @@
-namespace WorkerService.Obsolete;
+namespace WorkerService;
 
 
 /// <summary>
 /// Its a basic worker that have a little cicle of second by second that register the actual hour.
 /// </summary>
 /// <param name="logger"></param>
-public class SimpleWorker(ILogger<SimpleWorker> logger) : BackgroundService
+public class Worker(ILogger<Worker> logger) : BackgroundService
 {
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {

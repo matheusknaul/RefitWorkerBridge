@@ -88,3 +88,24 @@ C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\API\bin\Debug\net8.0\Infra
 C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\API\bin\Debug\net8.0\Application.pdb
 C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\API\bin\Debug\net8.0\Domain.pdb
 C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\API\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\RequestsConfiguration\apiKey.json
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Refit.dll
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Application.dll
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Domain.dll
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Application.pdb
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Domain.pdb
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\matheus.henrique\source\repos\StudyAPI\API\obj\Debug\net8.0\API.sourcelink.json

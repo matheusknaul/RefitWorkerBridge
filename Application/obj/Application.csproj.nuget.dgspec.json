@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Application\\Application.csproj": {}
+    "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Application\\Application.csproj": {
+    "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\matheus knaul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Application\\obj\\",
+        "projectPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\matheus.henrique\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\matheus knaul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matheus.henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Domain\\Domain.csproj"
+              "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -67,20 +67,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -90,20 +76,20 @@
         }
       }
     },
-    "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Domain\\Domain.csproj": {
+    "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\matheus knaul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus knaul\\source\\repos\\RefitWorkerBridge\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\matheus.henrique\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\matheus knaul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matheus.henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -146,20 +132,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -169,20 +141,20 @@
         }
       }
     },
-    "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\matheus knaul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\matheus.henrique\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\matheus knaul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matheus.henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -197,8 +169,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Domain\\Domain.csproj"
+              "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Domain\\Domain.csproj"
               }
             }
           }
@@ -247,20 +219,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

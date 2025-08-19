@@ -96,3 +96,4 @@ C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\WorkerService\obj\Debug\ne
 C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\WorkerService\obj\Debug\net8.0\WorkerService.pdb
 C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\WorkerService\obj\Debug\net8.0\WorkerService.genruntimeconfig.cache
 C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\WorkerService\obj\Debug\net8.0\ref\WorkerService.dll
+C:\Users\matheus.henrique\source\repos\StudyAPI\WorkerService\obj\Debug\net8.0\WorkerService.sourcelink.json
