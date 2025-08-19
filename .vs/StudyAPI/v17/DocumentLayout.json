@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06F5A989-7555-4D24-98FC-616F764CC4A4}|WorkerService\\WorkerService.csproj|c:\\users\\matheus.henrique\\source\\repos\\studyapi\\workerservice\\workerservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{06F5A989-7555-4D24-98FC-616F764CC4A4}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\workerservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F5A989-7555-4D24-98FC-616F764CC4A4}|WorkerService\\WorkerService.csproj|c:\\users\\matheus.henrique\\source\\repos\\studyapi\\workerservice\\jobs\\syncdatajob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F5A989-7555-4D24-98FC-616F764CC4A4}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\jobs\\syncdatajob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F5A989-7555-4D24-98FC-616F764CC4A4}|WorkerService\\WorkerService.csproj|c:\\users\\matheus.henrique\\source\\repos\\studyapi\\workerservice\\obsolete\\workerwithhost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F5A989-7555-4D24-98FC-616F764CC4A4}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\obsolete\\workerwithhost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F5A989-7555-4D24-98FC-616F764CC4A4}|WorkerService\\WorkerService.csproj|c:\\users\\matheus.henrique\\source\\repos\\studyapi\\workerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F5A989-7555-4D24-98FC-616F764CC4A4}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F5A989-7555-4D24-98FC-616F764CC4A4}|WorkerService\\WorkerService.csproj|c:\\users\\matheus.henrique\\source\\repos\\studyapi\\workerservice\\obsolete\\simpleworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F5A989-7555-4D24-98FC-616F764CC4A4}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\obsolete\\simpleworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBCD078-CEC6-4484-86A9-E5EF24191C53}|StudyAPI\\StudyAPI.csproj|c:\\users\\matheus.henrique\\source\\repos\\studyapi\\studyapi\\interfaces\\refit\\iuserrefit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBCD078-CEC6-4484-86A9-E5EF24191C53}|StudyAPI\\StudyAPI.csproj|solutionrelative:studyapi\\interfaces\\refit\\iuserrefit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBCD078-CEC6-4484-86A9-E5EF24191C53}|StudyAPI\\StudyAPI.csproj|c:\\users\\matheus.henrique\\source\\repos\\studyapi\\studyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBCD078-CEC6-4484-86A9-E5EF24191C53}|StudyAPI\\StudyAPI.csproj|solutionrelative:studyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBCD078-CEC6-4484-86A9-E5EF24191C53}|StudyAPI\\StudyAPI.csproj|c:\\users\\matheus.henrique\\source\\repos\\studyapi\\studyapi\\interfaces\\refit\\igeocodemapapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBCD078-CEC6-4484-86A9-E5EF24191C53}|StudyAPI\\StudyAPI.csproj|solutionrelative:studyapi\\interfaces\\refit\\igeocodemapapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBCD078-CEC6-4484-86A9-E5EF24191C53}|StudyAPI\\StudyAPI.csproj|c:\\users\\matheus.henrique\\source\\repos\\studyapi\\studyapi\\interfaces\\refit\\ijsonplaceholderapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBCD078-CEC6-4484-86A9-E5EF24191C53}|StudyAPI\\StudyAPI.csproj|solutionrelative:studyapi\\interfaces\\refit\\ijsonplaceholderapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBCD078-CEC6-4484-86A9-E5EF24191C53}|StudyAPI\\StudyAPI.csproj|c:\\users\\matheus.henrique\\source\\repos\\studyapi\\studyapi\\config\\apikey.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8DBCD078-CEC6-4484-86A9-E5EF24191C53}|StudyAPI\\StudyAPI.csproj|solutionrelative:studyapi\\config\\apikey.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBCD078-CEC6-4484-86A9-E5EF24191C53}|StudyAPI\\StudyAPI.csproj|c:\\users\\matheus.henrique\\source\\repos\\studyapi\\studyapi\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBCD078-CEC6-4484-86A9-E5EF24191C53}|StudyAPI\\StudyAPI.csproj|solutionrelative:studyapi\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBCD078-CEC6-4484-86A9-E5EF24191C53}|StudyAPI\\StudyAPI.csproj|c:\\users\\matheus.henrique\\source\\repos\\studyapi\\studyapi\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBCD078-CEC6-4484-86A9-E5EF24191C53}|StudyAPI\\StudyAPI.csproj|solutionrelative:studyapi\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorkerService",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\WorkerService\\WorkerService.csproj",
+              "RelativeDocumentMoniker": "WorkerService\\WorkerService.csproj",
+              "ToolTip": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\WorkerService\\WorkerService.csproj",
+              "RelativeToolTip": "WorkerService\\WorkerService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-19T01:11:34.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SyncDataJob.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\WorkerService\\Jobs\\SyncDataJob.cs",
+              "RelativeDocumentMoniker": "WorkerService\\Jobs\\SyncDataJob.cs",
+              "ToolTip": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\WorkerService\\Jobs\\SyncDataJob.cs",
+              "RelativeToolTip": "WorkerService\\Jobs\\SyncDataJob.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T01:08:23.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorkerWithHost.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\WorkerService\\Obsolete\\WorkerWithHost.cs",
+              "RelativeDocumentMoniker": "WorkerService\\Obsolete\\WorkerWithHost.cs",
+              "ToolTip": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\WorkerService\\Obsolete\\WorkerWithHost.cs",
+              "RelativeToolTip": "WorkerService\\Obsolete\\WorkerWithHost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T00:34:12.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SimpleWorker.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\WorkerService\\Obsolete\\SimpleWorker.cs",
+              "RelativeDocumentMoniker": "WorkerService\\Obsolete\\SimpleWorker.cs",
+              "ToolTip": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\WorkerService\\Obsolete\\SimpleWorker.cs",
+              "RelativeToolTip": "WorkerService\\Obsolete\\SimpleWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T00:22:52.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\WorkerService\\Program.cs",
+              "RelativeDocumentMoniker": "WorkerService\\Program.cs",
+              "ToolTip": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\WorkerService\\Program.cs",
+              "RelativeToolTip": "WorkerService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T00:06:38.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserRefit.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\StudyAPI\\Interfaces\\Refit\\IUserRefit.cs",
+              "RelativeDocumentMoniker": "StudyAPI\\Interfaces\\Refit\\IUserRefit.cs",
+              "ToolTip": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\StudyAPI\\Interfaces\\Refit\\IUserRefit.cs",
+              "RelativeToolTip": "StudyAPI\\Interfaces\\Refit\\IUserRefit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T18:50:21.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "apiKey.json",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\StudyAPI\\Config\\apiKey.json",
+              "RelativeDocumentMoniker": "StudyAPI\\Config\\apiKey.json",
+              "ToolTip": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\StudyAPI\\Config\\apiKey.json",
+              "RelativeToolTip": "StudyAPI\\Config\\apiKey.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-18T17:31:04.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IJsonPlaceholderApi.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\StudyAPI\\Interfaces\\Refit\\IJsonPlaceholderApi.cs",
+              "RelativeDocumentMoniker": "StudyAPI\\Interfaces\\Refit\\IJsonPlaceholderApi.cs",
+              "ToolTip": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\StudyAPI\\Interfaces\\Refit\\IJsonPlaceholderApi.cs",
+              "RelativeToolTip": "StudyAPI\\Interfaces\\Refit\\IJsonPlaceholderApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T17:29:55.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGeoCodeMapApi.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\StudyAPI\\Interfaces\\Refit\\IGeoCodeMapApi.cs",
+              "RelativeDocumentMoniker": "StudyAPI\\Interfaces\\Refit\\IGeoCodeMapApi.cs",
+              "ToolTip": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\StudyAPI\\Interfaces\\Refit\\IGeoCodeMapApi.cs",
+              "RelativeToolTip": "StudyAPI\\Interfaces\\Refit\\IGeoCodeMapApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T15:25:03.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\StudyAPI\\Program.cs",
+              "RelativeDocumentMoniker": "StudyAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\StudyAPI\\Program.cs",
+              "RelativeToolTip": "StudyAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T15:26:24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\StudyAPI\\Models\\Address.cs",
+              "RelativeDocumentMoniker": "StudyAPI\\Models\\Address.cs",
+              "ToolTip": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\StudyAPI\\Models\\Address.cs",
+              "RelativeToolTip": "StudyAPI\\Models\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T15:07:17.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\StudyAPI\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "StudyAPI\\Models\\Post.cs",
+              "ToolTip": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\StudyAPI\\Models\\Post.cs",
+              "RelativeToolTip": "StudyAPI\\Models\\Post.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T13:54:44.733Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
