@@ -1,0 +1,17 @@
+C:\Users\matheus knaul\source\repos\RefitWorkerBridge\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\matheus knaul\source\repos\RefitWorkerBridge\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matheus knaul\source\repos\RefitWorkerBridge\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\matheus knaul\source\repos\RefitWorkerBridge\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\matheus knaul\source\repos\RefitWorkerBridge\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\matheus knaul\source\repos\RefitWorkerBridge\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\Infrastructure\bin\Debug\net8.0\RequestsConfiguration\apiKey.json
+C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

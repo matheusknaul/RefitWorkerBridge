@@ -8,6 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Exceptions\**" />
+    <Compile Remove="Interfaces\HttpClient\**" />
+    <Compile Remove="Interfaces\RestSharp\**" />
+    <EmbeddedResource Remove="Exceptions\**" />
+    <EmbeddedResource Remove="Interfaces\HttpClient\**" />
+    <EmbeddedResource Remove="Interfaces\RestSharp\**" />
+    <None Remove="Exceptions\**" />
+    <None Remove="Interfaces\HttpClient\**" />
+    <None Remove="Interfaces\RestSharp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="Config\apiKey.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -16,12 +28,6 @@
   <ItemGroup>
     <PackageReference Include="Refit" Version="8.0.0" />
     <PackageReference Include="RestSharp" Version="112.1.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Interfaces\HttpClient\" />
-    <Folder Include="Interfaces\RestSharp\" />
-    <Folder Include="Exceptions\" />
   </ItemGroup>
 
 </Project>

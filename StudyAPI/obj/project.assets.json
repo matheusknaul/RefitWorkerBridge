@@ -95,23 +95,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\matheus.henrique\\.nuget\\packages\\": {},
+    "C:\\Users\\matheus knaul\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\StudyAPI\\StudyAPI.csproj",
+      "projectUniqueName": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\StudyAPI\\StudyAPI.csproj",
       "projectName": "StudyAPI",
-      "projectPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\StudyAPI\\StudyAPI.csproj",
-      "packagesPath": "C:\\Users\\matheus.henrique\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\StudyAPI\\obj\\",
+      "projectPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\StudyAPI\\StudyAPI.csproj",
+      "packagesPath": "C:\\Users\\matheus knaul\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\StudyAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\matheus.henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\matheus knaul\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -164,6 +164,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.19, 8.0.19]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.19, 8.0.19]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.19, 8.0.19]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.19, 8.0.19]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
