@@ -1,18 +1,38 @@
-namespace WorkerService;
+using Application.Services.Refit;
+using System.Diagnostics;
 
-
-/// <summary>
-/// Its a basic worker that have a little cicle of second by second that register the actual hour.
-/// </summary>
-/// <param name="logger"></param>
-public class Worker(ILogger<Worker> logger) : BackgroundService
+namespace WorkerService
 {
-    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+    public class Worker : BackgroundService
     {
-        while (!stoppingToken.IsCancellationRequested)
+        private readonly ILogger<Worker> _logger;
+
+        public Worker(ILogger<Worker> logger)
         {
-            logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
-            await Task.Delay(1_000, stoppingToken);
+            _logger = logger;
+        }
+
+        protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+        {
+            while (!stoppingToken.IsCancellationRequested)
+            {
+                if (_logger.IsEnabled(LogLevel.Information))
+                {
+                    _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
+                    _logger.LogInformation("Go to get post by id 1");
+                    var sw = Stopwatch.StartNew();
+                    var post = await JPlaceholderPostService.GetPostById(1);
+                    sw.Stop();
+                    _logger.LogInformation($"PostAAAA ID: {post.Id}, Title: {post.Title} elapsed time: {sw.ElapsedMilliseconds} ms");
+                    var swc = Stopwatch.StartNew();
+                    await ApiPostService.CreatePost(post);
+                    swc.Stop();
+                    _logger.LogInformation($"Post has been created in API and this process had during: {swc.ElapsedMilliseconds} ms");
+                    Console.ReadLine();
+
+                }
+
+            }
         }
     }
 }

@@ -14,7 +14,7 @@ namespace Infrastructure.Requests.Refit
         Task<List<Post>> GetPostsAsync();
         [Get("/posts/{id}")]
         Task<Post> GetPostByIdAsync(int id);
-        [Post("/posts/")]
+        [Post("/post/")]
         Task<Post> CreatePostAsync(Post post);
         [Put("/posts/{id}")]
         Task<Post> UpdatePostAsync(int id, Post post);

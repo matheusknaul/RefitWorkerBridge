@@ -109,3 +109,5 @@ C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Application
 C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Domain.pdb
 C:\Users\matheus.henrique\source\repos\StudyAPI\API\bin\Debug\net8.0\Infrastructure.pdb
 C:\Users\matheus.henrique\source\repos\StudyAPI\API\obj\Debug\net8.0\API.sourcelink.json
+C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\matheus knaul\Source\Repos\RefitWorkerBridge\API\bin\Debug\net8.0\RabbitMQ.Client.dll

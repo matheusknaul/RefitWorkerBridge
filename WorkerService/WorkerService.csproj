@@ -1,25 +1,21 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+<Project Sdk="Microsoft.NET.Sdk.Worker">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>dotnet-WorkerService-587a15fe-a0df-4141-9919-61bc5f37a017</UserSecretsId>
+    <UserSecretsId>dotnet-WorkerService-70ef895d-1661-4d26-a084-91747f244423</UserSecretsId>
   </PropertyGroup>
-	
-	<PropertyGroup>
-		<ServerGarbageCollection>true</ServerGarbageCollection>
-	</PropertyGroup>
-	
-	<ItemGroup>
-	  <Compile Remove="Configuration\**" />
-	  <Content Remove="Configuration\**" />
-	  <EmbeddedResource Remove="Configuration\**" />
-	  <None Remove="Configuration\**" />
-	</ItemGroup>
 
-	<ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
     <PackageReference Include="Quartz" Version="3.15.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API\API.csproj" />
+    <ProjectReference Include="..\Application\Application.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
   </ItemGroup>
 </Project>

@@ -255,6 +255,23 @@
           }
         }
       },
+      "RabbitMQ.Client/7.1.2": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "8.0.0",
+          "System.Threading.RateLimiting": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Refit/8.0.0": {
         "type": "package",
         "compile": {
@@ -351,6 +368,38 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "System.IO.Pipelines/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Threading.RateLimiting/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Threading.RateLimiting.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Threading.RateLimiting.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -383,6 +432,7 @@
           "Microsoft.EntityFrameworkCore": "9.0.8",
           "Microsoft.EntityFrameworkCore.InMemory": "9.0.8",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "RabbitMQ.Client": "7.1.2",
           "Refit": "8.0.0"
         },
         "compile": {
@@ -1021,6 +1071,23 @@
         "microsoft.openapi.nuspec"
       ]
     },
+    "RabbitMQ.Client/7.1.2": {
+      "sha512": "y3c6ulgULScWthHw5PLM1ShHRLhxg0vCtzX/hh61gRgNecL3ZC3WoBW2HYHoXOVRqTl99Br9E7CZEytGZEsCyQ==",
+      "type": "package",
+      "path": "rabbitmq.client/7.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net8.0/RabbitMQ.Client.dll",
+        "lib/net8.0/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.7.1.2.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
     "Refit/8.0.0": {
       "sha512": "gXRmIy3Va0mwwr8usnqVRQFoFIJaJGlWTTXBlwxIkHB/xwXnq1Ybs1YNA2BM1O4G46JLLlGjg6YOwrTZusuY3Q==",
       "type": "package",
@@ -1177,6 +1244,64 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.IO.Pipelines/8.0.0": {
+      "sha512": "FHNOatmUq0sqJOkTx+UF/9YK1f180cnW5FVqnQMvYUN0elp6wFzbtPSiqbo1/ru8ICp43JM1i7kKkk6GsNGHlA==",
+      "type": "package",
+      "path": "system.io.pipelines/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.IO.Pipelines.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.IO.Pipelines.targets",
+        "lib/net462/System.IO.Pipelines.dll",
+        "lib/net462/System.IO.Pipelines.xml",
+        "lib/net6.0/System.IO.Pipelines.dll",
+        "lib/net6.0/System.IO.Pipelines.xml",
+        "lib/net7.0/System.IO.Pipelines.dll",
+        "lib/net7.0/System.IO.Pipelines.xml",
+        "lib/net8.0/System.IO.Pipelines.dll",
+        "lib/net8.0/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.8.0.0.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Threading.RateLimiting/8.0.0": {
+      "sha512": "7mu9v0QDv66ar3DpGSZHg9NuNcxDaaAcnMULuZlaTpP9+hwXhrxNGsF5GmLkSHxFdb5bBc1TzeujsRgTrPWi+Q==",
+      "type": "package",
+      "path": "system.threading.ratelimiting/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Threading.RateLimiting.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Threading.RateLimiting.targets",
+        "lib/net462/System.Threading.RateLimiting.dll",
+        "lib/net462/System.Threading.RateLimiting.xml",
+        "lib/net6.0/System.Threading.RateLimiting.dll",
+        "lib/net6.0/System.Threading.RateLimiting.xml",
+        "lib/net7.0/System.Threading.RateLimiting.dll",
+        "lib/net7.0/System.Threading.RateLimiting.xml",
+        "lib/net8.0/System.Threading.RateLimiting.dll",
+        "lib/net8.0/System.Threading.RateLimiting.xml",
+        "lib/netstandard2.0/System.Threading.RateLimiting.dll",
+        "lib/netstandard2.0/System.Threading.RateLimiting.xml",
+        "system.threading.ratelimiting.8.0.0.nupkg.sha512",
+        "system.threading.ratelimiting.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Application/1.0.0": {
       "type": "project",
       "path": "../Application/Application.csproj",
@@ -1203,23 +1328,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\matheus.henrique\\.nuget\\packages\\": {},
+    "C:\\Users\\matheus knaul\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\matheus.henrique\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\API\\obj\\",
+      "projectPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\matheus knaul\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\matheus.henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\matheus knaul\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1234,14 +1359,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Application\\Application.csproj"
+            "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Application\\Application.csproj"
             },
-            "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Domain\\Domain.csproj"
+            "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -1282,6 +1407,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.19, 8.0.19]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.19, 8.0.19]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.19, 8.0.19]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.19, 8.0.19]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

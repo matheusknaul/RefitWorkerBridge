@@ -4,11 +4,10 @@ using Refit;
 
 namespace Application.Services.Refit
 {
-    public static class RefitPostService
+    public static class ApiPostService
     {
-
         public static IJsonPlaceholderApi API_CONNECTION { get; } =
-            RestService.For<IJsonPlaceholderApi>("https://jsonplaceholder.typicode.com");
+            RestService.For<IJsonPlaceholderApi>("https://localhost:7152/api");
 
         public static async Task<List<Post>> GetAllPosts()
         {
@@ -20,6 +19,11 @@ namespace Application.Services.Refit
         public static async Task<Post> GetPostById(int id)
         {
             return await API_CONNECTION.GetPostByIdAsync(id);
+        }
+
+        public static async Task CreatePost(Post post)
+        {
+            await API_CONNECTION.CreatePostAsync(post);
         }
     }
 }

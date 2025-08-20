@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\matheus knaul\\source\\repos\\RefitWorkerBridge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06F5A989-7555-4D24-98FC-616F764CC4A4}|WorkerService\\WorkerService.csproj|c:\\users\\matheus.henrique\\source\\repos\\studyapi\\workerservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F5A989-7555-4D24-98FC-616F764CC4A4}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46CC829F-BAE5-4213-B813-DE2E2C6F7BFB}|WorkerService\\WorkerService.csproj|c:\\users\\matheus knaul\\source\\repos\\refitworkerbridge\\workerservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC829F-BAE5-4213-B813-DE2E2C6F7BFB}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCE2D127-8C14-49A4-ABF0-85C234DF787D}|Application\\Application.csproj|c:\\users\\matheus.henrique\\source\\repos\\studyapi\\application\\services\\refit\\refitpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCE2D127-8C14-49A4-ABF0-85C234DF787D}|Application\\Application.csproj|solutionrelative:application\\services\\refit\\refitpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCE2D127-8C14-49A4-ABF0-85C234DF787D}|Application\\Application.csproj|c:\\users\\matheus knaul\\source\\repos\\refitworkerbridge\\application\\services\\refit\\jplaceholderpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCE2D127-8C14-49A4-ABF0-85C234DF787D}|Application\\Application.csproj|solutionrelative:application\\services\\refit\\jplaceholderpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{815C1198-61A6-4441-A574-2C2320D29148}|Infrastructure\\Infrastructure.csproj|c:\\users\\matheus.henrique\\source\\repos\\studyapi\\infrastructure\\script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{815C1198-61A6-4441-A574-2C2320D29148}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{815C1198-61A6-4441-A574-2C2320D29148}|Infrastructure\\Infrastructure.csproj|c:\\users\\matheus knaul\\source\\repos\\refitworkerbridge\\infrastructure\\requests\\refit\\ijsonplaceholderapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815C1198-61A6-4441-A574-2C2320D29148}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\requests\\refit\\ijsonplaceholderapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F5A989-7555-4D24-98FC-616F764CC4A4}|WorkerService\\WorkerService.csproj|c:\\users\\matheus.henrique\\source\\repos\\studyapi\\workerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F5A989-7555-4D24-98FC-616F764CC4A4}|WorkerService\\WorkerService.csproj|solutionrelative:workerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCE2D127-8C14-49A4-ABF0-85C234DF787D}|Application\\Application.csproj|c:\\users\\matheus knaul\\source\\repos\\refitworkerbridge\\application\\services\\refit\\apipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCE2D127-8C14-49A4-ABF0-85C234DF787D}|Application\\Application.csproj|solutionrelative:application\\services\\refit\\apipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{753787BD-D498-43DF-A4AD-1E3B4293995E}|API\\API.csproj|c:\\users\\matheus knaul\\source\\repos\\refitworkerbridge\\api\\controllers\\workerservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{753787BD-D498-43DF-A4AD-1E3B4293995E}|API\\API.csproj|solutionrelative:api\\controllers\\workerservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,66 +30,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\WorkerService\\Worker.cs",
-              "RelativeDocumentMoniker": "WorkerService\\Worker.cs",
-              "ToolTip": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\WorkerService\\Worker.cs",
-              "RelativeToolTip": "WorkerService\\Worker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IJsonPlaceholderApi.cs",
+              "DocumentMoniker": "C:\\Users\\matheus knaul\\source\\repos\\RefitWorkerBridge\\Infrastructure\\Requests\\Refit\\IJsonPlaceholderApi.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Requests\\Refit\\IJsonPlaceholderApi.cs",
+              "ToolTip": "C:\\Users\\matheus knaul\\source\\repos\\RefitWorkerBridge\\Infrastructure\\Requests\\Refit\\IJsonPlaceholderApi.cs",
+              "RelativeToolTip": "Infrastructure\\Requests\\Refit\\IJsonPlaceholderApi.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T16:23:34.872Z",
+              "WhenOpened": "2025-08-20T02:45:06.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\WorkerService\\Program.cs",
-              "RelativeDocumentMoniker": "WorkerService\\Program.cs",
-              "ToolTip": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\WorkerService\\Program.cs",
-              "RelativeToolTip": "WorkerService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\matheus knaul\\source\\repos\\RefitWorkerBridge\\WorkerService\\Worker.cs",
+              "RelativeDocumentMoniker": "WorkerService\\Worker.cs",
+              "ToolTip": "C:\\Users\\matheus knaul\\source\\repos\\RefitWorkerBridge\\WorkerService\\Worker.cs",
+              "RelativeToolTip": "WorkerService\\Worker.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA4AAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T15:15:02.153Z",
+              "WhenOpened": "2025-08-20T02:20:45.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RefitPostService.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Application\\Services\\Refit\\RefitPostService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\Refit\\RefitPostService.cs",
-              "ToolTip": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Application\\Services\\Refit\\RefitPostService.cs",
-              "RelativeToolTip": "Application\\Services\\Refit\\RefitPostService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAA9AAAAAAAAAA==",
+              "Title": "JPlaceholderPostService.cs",
+              "DocumentMoniker": "C:\\Users\\matheus knaul\\source\\repos\\RefitWorkerBridge\\Application\\Services\\Refit\\JPlaceholderPostService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Refit\\JPlaceholderPostService.cs",
+              "ToolTip": "C:\\Users\\matheus knaul\\source\\repos\\RefitWorkerBridge\\Application\\Services\\Refit\\JPlaceholderPostService.cs",
+              "RelativeToolTip": "Application\\Services\\Refit\\JPlaceholderPostService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T15:13:29.708Z",
+              "WhenOpened": "2025-08-20T01:49:21.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Script.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Infrastructure\\Script.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Script.cs",
-              "ToolTip": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Infrastructure\\Script.cs",
-              "RelativeToolTip": "Infrastructure\\Script.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAVAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ApiPostService.cs",
+              "DocumentMoniker": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Application\\Services\\Refit\\ApiPostService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Refit\\ApiPostService.cs",
+              "ToolTip": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Application\\Services\\Refit\\ApiPostService.cs",
+              "RelativeToolTip": "Application\\Services\\Refit\\ApiPostService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T15:13:03.36Z",
+              "WhenOpened": "2025-08-20T01:46:36.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WorkerServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\matheus knaul\\source\\repos\\RefitWorkerBridge\\API\\Controllers\\WorkerServiceController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\WorkerServiceController.cs",
+              "ToolTip": "C:\\Users\\matheus knaul\\source\\repos\\RefitWorkerBridge\\API\\Controllers\\WorkerServiceController.cs",
+              "RelativeToolTip": "API\\Controllers\\WorkerServiceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T01:15:01.725Z",
               "EditorCaption": ""
             }
           ]
