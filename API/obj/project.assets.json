@@ -368,6 +368,32 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "System.Diagnostics.EventLog/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -405,7 +431,8 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Domain": "1.0.0",
-          "Infrastructure": "1.0.0"
+          "Infrastructure": "1.0.0",
+          "Refit": "8.0.0"
         },
         "compile": {
           "bin/placeholder/Application.dll": {}
@@ -433,7 +460,8 @@
           "Microsoft.EntityFrameworkCore.InMemory": "9.0.8",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
           "RabbitMQ.Client": "7.1.2",
-          "Refit": "8.0.0"
+          "Refit": "8.0.0",
+          "System.Diagnostics.EventLog": "8.0.1"
         },
         "compile": {
           "bin/placeholder/Infrastructure.dll": {}
@@ -1244,6 +1272,45 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.Diagnostics.EventLog/8.0.1": {
+      "sha512": "n1ZP7NM2Gkn/MgD8+eOT5MulMj6wfeQMNS2Pizvq5GHCZfjlFMXV2irQlQmJhwA2VABC57M0auudO89Iu2uRLg==",
+      "type": "package",
+      "path": "system.diagnostics.eventlog/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Diagnostics.EventLog.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Diagnostics.EventLog.targets",
+        "lib/net462/System.Diagnostics.EventLog.dll",
+        "lib/net462/System.Diagnostics.EventLog.xml",
+        "lib/net6.0/System.Diagnostics.EventLog.dll",
+        "lib/net6.0/System.Diagnostics.EventLog.xml",
+        "lib/net7.0/System.Diagnostics.EventLog.dll",
+        "lib/net7.0/System.Diagnostics.EventLog.xml",
+        "lib/net8.0/System.Diagnostics.EventLog.dll",
+        "lib/net8.0/System.Diagnostics.EventLog.xml",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.dll",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.xml",
+        "system.diagnostics.eventlog.8.0.1.nupkg.sha512",
+        "system.diagnostics.eventlog.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.IO.Pipelines/8.0.0": {
       "sha512": "FHNOatmUq0sqJOkTx+UF/9YK1f180cnW5FVqnQMvYUN0elp6wFzbtPSiqbo1/ru8ICp43JM1i7kKkk6GsNGHlA==",
       "type": "package",
@@ -1328,23 +1395,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\matheus knaul\\.nuget\\packages\\": {},
+    "C:\\Users\\matheus.henrique\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\matheus knaul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\API\\obj\\",
+      "projectPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\matheus.henrique\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\matheus knaul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\matheus.henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1359,14 +1426,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Application\\Application.csproj"
+            "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Application\\Application.csproj"
             },
-            "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Domain\\Domain.csproj"
+            "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\matheus knaul\\Source\\Repos\\RefitWorkerBridge\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\matheus.henrique\\source\\repos\\StudyAPI\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -1407,24 +1474,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.19, 8.0.19]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.19, 8.0.19]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.19, 8.0.19]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.19, 8.0.19]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

@@ -10,13 +10,110 @@
         "dependencies": {
           "API": "1.0.0",
           "Application": "1.0.0",
+          "CronExpressionDescriptor": "2.44.0",
           "Domain": "1.0.0",
           "Infrastructure": "1.0.0",
           "Microsoft.Extensions.Hosting": "8.0.1",
-          "Quartz": "3.15.0"
+          "Microsoft.Extensions.Hosting.WindowsServices": "8.0.1",
+          "Quartz": "3.15.0",
+          "Quartz.Extensions.DependencyInjection": "3.15.0"
         },
         "runtime": {
           "WorkerService.dll": {}
+        }
+      },
+      "CronExpressionDescriptor/2.44.0": {
+        "runtime": {
+          "lib/net6.0/CronExpressionDescriptor.dll": {
+            "assemblyVersion": "2.44.0.0",
+            "fileVersion": "2.44.0.0"
+          }
+        },
+        "resources": {
+          "lib/net6.0/cs/CronExpressionDescriptor.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net6.0/da/CronExpressionDescriptor.resources.dll": {
+            "locale": "da"
+          },
+          "lib/net6.0/de/CronExpressionDescriptor.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0/el/CronExpressionDescriptor.resources.dll": {
+            "locale": "el"
+          },
+          "lib/net6.0/es-MX/CronExpressionDescriptor.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0/es/CronExpressionDescriptor.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0/fa/CronExpressionDescriptor.resources.dll": {
+            "locale": "fa"
+          },
+          "lib/net6.0/fi/CronExpressionDescriptor.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/net6.0/fr/CronExpressionDescriptor.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0/he-IL/CronExpressionDescriptor.resources.dll": {
+            "locale": "he-IL"
+          },
+          "lib/net6.0/hu/CronExpressionDescriptor.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net6.0/it/CronExpressionDescriptor.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net6.0/ja/CronExpressionDescriptor.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0/kk/CronExpressionDescriptor.resources.dll": {
+            "locale": "kk"
+          },
+          "lib/net6.0/ko/CronExpressionDescriptor.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0/nb/CronExpressionDescriptor.resources.dll": {
+            "locale": "nb"
+          },
+          "lib/net6.0/nl/CronExpressionDescriptor.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net6.0/pl/CronExpressionDescriptor.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net6.0/pt/CronExpressionDescriptor.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0/ro/CronExpressionDescriptor.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net6.0/ru/CronExpressionDescriptor.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0/sl/CronExpressionDescriptor.resources.dll": {
+            "locale": "sl"
+          },
+          "lib/net6.0/sv/CronExpressionDescriptor.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net6.0/tr/CronExpressionDescriptor.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0/uk/CronExpressionDescriptor.resources.dll": {
+            "locale": "uk"
+          },
+          "lib/net6.0/vi/CronExpressionDescriptor.resources.dll": {
+            "locale": "vi"
+          },
+          "lib/net6.0/zh-Hans/CronExpressionDescriptor.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net6.0/zh-Hant/CronExpressionDescriptor.resources.dll": {
+            "locale": "zh-Hant"
+          }
         }
       },
       "Microsoft.EntityFrameworkCore/9.0.8": {
@@ -263,6 +360,19 @@
           }
         }
       },
+      "Microsoft.Extensions.Hosting.WindowsServices/8.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Hosting": "8.0.1",
+          "Microsoft.Extensions.Logging.EventLog": "8.0.1",
+          "System.ServiceProcess.ServiceController": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Hosting.WindowsServices.dll": {
+            "assemblyVersion": "8.0.0.1",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/9.0.8": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "9.0.8",
@@ -412,6 +522,19 @@
           }
         }
       },
+      "Quartz.Extensions.DependencyInjection/3.15.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "9.0.8",
+          "Quartz": "3.15.0"
+        },
+        "runtime": {
+          "lib/net8.0/Quartz.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "3.15.0.0",
+            "fileVersion": "3.15.0.0"
+          }
+        }
+      },
       "RabbitMQ.Client/7.1.2": {
         "dependencies": {
           "System.IO.Pipelines": "8.0.0",
@@ -495,6 +618,25 @@
         }
       },
       "System.IO.Pipelines/8.0.0": {},
+      "System.ServiceProcess.ServiceController/8.0.1": {
+        "dependencies": {
+          "System.Diagnostics.EventLog": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/System.ServiceProcess.ServiceController.dll": {
+            "assemblyVersion": "8.0.0.1",
+            "fileVersion": "8.0.1024.46610"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.ServiceProcess.ServiceController.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.1",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
       "System.Threading.RateLimiting/8.0.0": {},
       "API/1.0.0": {
         "dependencies": {
@@ -514,7 +656,8 @@
       "Application/1.0.0": {
         "dependencies": {
           "Domain": "1.0.0",
-          "Infrastructure": "1.0.0"
+          "Infrastructure": "1.0.0",
+          "Refit": "8.0.0"
         },
         "runtime": {
           "Application.dll": {
@@ -538,7 +681,8 @@
           "Microsoft.EntityFrameworkCore.InMemory": "9.0.8",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
           "RabbitMQ.Client": "7.1.2",
-          "Refit": "8.0.0"
+          "Refit": "8.0.0",
+          "System.Diagnostics.EventLog": "8.0.1"
         },
         "runtime": {
           "Infrastructure.dll": {
@@ -554,6 +698,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CronExpressionDescriptor/2.44.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oOYyCykPXs9utjkJRcxVwdr6Ssff4Y0Ak5xgl6UhbZpdHYZ98/AjE+6w6/b/648wX4jPAkGu1/A1UIJQEvVJQw==",
+      "path": "cronexpressiondescriptor/2.44.0",
+      "hashPath": "cronexpressiondescriptor.2.44.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/9.0.8": {
       "type": "package",
@@ -723,6 +874,13 @@
       "path": "microsoft.extensions.hosting.abstractions/8.0.1",
       "hashPath": "microsoft.extensions.hosting.abstractions.8.0.1.nupkg.sha512"
     },
+    "Microsoft.Extensions.Hosting.WindowsServices/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5p0tjMDpr8tgzjBdu9Rzk8lUU/PaR1D3Us52XZypl85QTxfAjthR1+YywB3GsGc+FOZWdpuEDsV8kZisEC2Hng==",
+      "path": "microsoft.extensions.hosting.windowsservices/8.0.1",
+      "hashPath": "microsoft.extensions.hosting.windowsservices.8.0.1.nupkg.sha512"
+    },
     "Microsoft.Extensions.Logging/9.0.8": {
       "type": "package",
       "serviceable": true,
@@ -807,6 +965,13 @@
       "path": "quartz/3.15.0",
       "hashPath": "quartz.3.15.0.nupkg.sha512"
     },
+    "Quartz.Extensions.DependencyInjection/3.15.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4g+QSG84cHlffLXoiHC7I/zkw223GUtdj0ZYrY+sxYq45Dd3Rti4uKIn0dWeotyEiJZNpn028bspf8njSJdnUg==",
+      "path": "quartz.extensions.dependencyinjection/3.15.0",
+      "hashPath": "quartz.extensions.dependencyinjection.3.15.0.nupkg.sha512"
+    },
     "RabbitMQ.Client/7.1.2": {
       "type": "package",
       "serviceable": true,
@@ -869,6 +1034,13 @@
       "sha512": "sha512-FHNOatmUq0sqJOkTx+UF/9YK1f180cnW5FVqnQMvYUN0elp6wFzbtPSiqbo1/ru8ICp43JM1i7kKkk6GsNGHlA==",
       "path": "system.io.pipelines/8.0.0",
       "hashPath": "system.io.pipelines.8.0.0.nupkg.sha512"
+    },
+    "System.ServiceProcess.ServiceController/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-02I0BXo1kmMBgw03E8Hu4K6nTqur4wpQdcDZrndczPzY2fEoGvlinE35AWbyzLZ2h2IksEZ6an4tVt3hi9j1oA==",
+      "path": "system.serviceprocess.servicecontroller/8.0.1",
+      "hashPath": "system.serviceprocess.servicecontroller.8.0.1.nupkg.sha512"
     },
     "System.Threading.RateLimiting/8.0.0": {
       "type": "package",
